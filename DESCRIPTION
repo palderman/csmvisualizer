@@ -1,0 +1,21 @@
+Package: csmvisualizer
+Type: Package
+Title: Visualize Cropping System Model Structure and Simulated Output
+Version: 0.1.0
+Authors@R: c(
+    person(
+      c("Phillip", "D"), "Alderman",
+      email = "phillip.alderman@okstate.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: A collection of functions for visualizing cropping system model
+    structure as stock-flow diagrams, dependency graphs of model variables
+    and plots of curves for model equations. Functions are also included to
+    facilitate plotting of output simulated from cropping system models.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Links: ggplot2
+Suggests: tinytest
+Config/roxygen2/version: 8.0.0
